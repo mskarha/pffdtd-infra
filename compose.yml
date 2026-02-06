@@ -10,6 +10,7 @@ services:
     stdin_open: true
     volumes:
       - pffdtd-work:/work
+      - /home/matt/dev/pffdtd-dev:/src/pffdtd
       - /mnt/c/pffdtd-host-data:/host-data
 volumes:
   pffdtd-work:

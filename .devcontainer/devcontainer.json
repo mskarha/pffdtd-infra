@@ -2,7 +2,7 @@
   "name": "pffdtd-dev (CUDA 12.4.1, Ubuntu 22.04)",
   "dockerComposeFile": "../compose.yml",
   "service": "pffdtd",
-  "workspaceFolder": "/work/pffdtd",
+  "workspaceFolder": "/src/pffdtd",
   "shutdownAction": "stopCompose",
   "customizations": {
     "vscode": {
