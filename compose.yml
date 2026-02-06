@@ -1,0 +1,15 @@
+services:
+  pffdtd:
+    build:
+      context: .
+      args:
+        PFFDTD_REPO: "https://github.com/mskarha/pffdtd-dev"
+        CUDA_ARCH: "sm_89"
+    gpus: all
+    tty: true
+    stdin_open: true
+    volumes:
+      - pffdtd-work:/work
+      - /mnt/c/pffdtd-host-data:/host-data
+volumes:
+  pffdtd-work:
