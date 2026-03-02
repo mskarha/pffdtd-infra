@@ -4,7 +4,7 @@ services:
       context: .
       args:
         PFFDTD_REPO: "https://github.com/mskarha/pffdtd-dev"
-        CUDA_ARCH: "sm_89"
+        CUDA_ARCH: "sm_86 docker compose build --no-cache"
     gpus: all
     tty: true
     stdin_open: true
